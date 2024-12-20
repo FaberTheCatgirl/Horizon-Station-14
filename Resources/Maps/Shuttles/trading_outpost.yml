@@ -26,7 +26,7 @@ entities:
       name: Automated Trade Station
     - type: Transform
       pos: -2.9375,-1.625
-      parent: invalid
+
     - type: MapGrid
       chunks:
         0,0:
@@ -60,6 +60,9 @@ entities:
       linearDamping: 0.05
       fixedRotation: False
       bodyType: Dynamic
+    - type: PassiveDampening # EE - To prevent cargotechs from flingling it away.
+      linearDampening: 0.01
+      angularDampening: 0.01
     - type: Fixtures
       fixtures: {}
     - type: OccluderTree

@@ -1,0 +1,13 @@
+- type: pointOfInterest
+  id: Fland
+  name: "Fland Station"
+  minimumDistance: 42200
+  maximumDistance: 44900
+  gridPath: /Maps/_NF/POI/fland.yml
+  addComponents:
+  - type: IFF
+    color: "#3737C8"
+    readOnly: true
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999

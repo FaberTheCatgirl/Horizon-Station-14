@@ -20,7 +20,7 @@ entities:
       name: NT Evac Omega
     - type: Transform
       pos: 2.2710133,-2.4148211
-      parent: invalid
+
     - type: MapGrid
       chunks:
         -1,0:
@@ -975,7 +975,7 @@ entities:
     - type: Transform
       pos: 2.4716125,7.543292
       parent: 603
-- proto: BoxSurvivalMedical
+- proto: BoxSurvivalSlotsMedical
   entities:
   - uid: 601
     components:

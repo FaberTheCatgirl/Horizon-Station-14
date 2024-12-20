@@ -1,0 +1,13 @@
+- type: pointOfInterest
+  id: Bagel
+  name: "Bagel Station"
+  minimumDistance: 72200
+  maximumDistance: 74900
+  gridPath: /Maps/_NF/POI/bagel.yml
+  addComponents:
+  - type: IFF
+    color: "#3737C8"
+    readOnly: true
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999

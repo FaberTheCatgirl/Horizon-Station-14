@@ -1,0 +1,13 @@
+- type: pointOfInterest
+  id: Core
+  name: "Core Station"
+  minimumDistance: 22200
+  maximumDistance: 24900
+  gridPath: /Maps/_NF/POI/box.yml
+  addComponents:
+  - type: IFF
+    color: "#3737C8"
+    readOnly: true
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999

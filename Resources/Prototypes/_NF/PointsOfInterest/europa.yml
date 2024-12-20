@@ -1,0 +1,13 @@
+- type: pointOfInterest
+  id: Europa
+  name: "Europa Station"
+  minimumDistance: 32200
+  maximumDistance: 34900
+  gridPath: /Maps/_NF/POI/europa.yml
+  addComponents:
+  - type: IFF
+    color: "#3737C8"
+    readOnly: true
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999

@@ -1,0 +1,13 @@
+- type: pointOfInterest
+  id: Meta
+  name: "Meta Station"
+  minimumDistance: 62200
+  maximumDistance: 64900
+  gridPath: /Maps/_NF/POI/meta.yml
+  addComponents:
+  - type: IFF
+    color: "#3737C8"
+    readOnly: true
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999

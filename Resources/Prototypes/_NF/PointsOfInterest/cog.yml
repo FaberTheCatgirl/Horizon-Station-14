@@ -1,0 +1,13 @@
+- type: pointOfInterest
+  id: Cog
+  name: "Cog Station"
+  minimumDistance: 12200
+  maximumDistance: 14900
+  gridPath: /Maps/_NF/POI/cog.yml
+  addComponents:
+  - type: IFF
+    color: "#3737C8"
+    readOnly: true
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999

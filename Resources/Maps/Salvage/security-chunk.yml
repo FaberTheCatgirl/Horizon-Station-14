@@ -20,7 +20,7 @@ entities:
       name: grid
     - type: Transform
       pos: -0.484375,-0.45315552
-      parent: invalid
+
     - type: MapGrid
       chunks:
         0,0:
@@ -1628,7 +1628,7 @@ entities:
     - type: Transform
       pos: 2.5,-4.5
       parent: 1
-- proto: WeaponPistolMk58Nonlethal
+- proto: WeaponPistolMk58
   entities:
   - uid: 194
     components:

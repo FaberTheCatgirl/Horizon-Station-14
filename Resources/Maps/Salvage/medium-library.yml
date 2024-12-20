@@ -18,7 +18,7 @@ entities:
     - type: MetaData
     - type: Transform
       pos: 0.5,0.5
-      parent: invalid
+
     - type: MapGrid
       chunks:
         -1,-1:
@@ -361,7 +361,7 @@ entities:
     - type: Transform
       pos: 3.5,-0.5
       parent: 6
-- proto: BookRandomStory
+- proto: BookBotanicalTextbook
   entities:
   - uid: 167
     components:
@@ -397,7 +397,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -5.463833,-3.7405434
       parent: 6
-- proto: BookRandomStory
+- proto: BookGnominomicon
   entities:
   - uid: 169
     components:

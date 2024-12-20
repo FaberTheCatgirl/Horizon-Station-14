@@ -1,8 +1,21 @@
-﻿[game]
+﻿[net]
+# Reducing tickrate to 30 is basically unnoticeable
+# but reduces server, client and network load dramatically.
+max_connections = 1024
+tickrate = 30
+
+[netres]
+limit    = 10.0
+
+[game]
 # Straight in-game baby
-lobbyenabled = false
-map = "NFDev"
+lobbyenabled       = true
+lobbyduration      = 30
+round_end_pacifist = true
+map = "Frontier"
 role_timers = false
+# Changes the name of the server as it appears in the lobby and launcher.
+hostname = "Horizon Station"
 
 [ghost]
 role_time = 0.5
@@ -16,7 +29,7 @@ generator_enabled = false
 grid_splitting = false
 
 [procgen]
-preload = false
+preload = true
 
 [salvage]
 expedition_cooldown = 30.0
@@ -27,8 +40,18 @@ grid_fill = false
 auto_call_time = 0
 emergency = false
 arrivals = false
-preload_grids = false
+preload_grids = true
 shipyard = true
 
 [admin]
 see_own_notes = true
+
+[server]
+id         = "horizon"
+
+[ic]
+flavor_text = true
+punctuation = true
+
+[atmos]
+space_wind = true

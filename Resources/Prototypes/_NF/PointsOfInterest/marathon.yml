@@ -1,0 +1,13 @@
+- type: pointOfInterest
+  id: Marathon
+  name: "Marathon Station"
+  minimumDistance: 52200
+  maximumDistance: 54900
+  gridPath: /Maps/_NF/POI/marathon.yml
+  addComponents:
+  - type: IFF
+    color: "#3737C8"
+    readOnly: true
+  - type: Shuttle
+    angularDamping: 999999
+    linearDamping: 999999

@@ -12,9 +12,9 @@
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Frontier Outpost'
-#          nameGenerator:
-#            !type:NanotrasenNameGenerator
-#            prefixCreator: '14'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
         - type: ExtraStationInformation
           iconPath: /Textures/Logo/logo.png
           stationSubtext: 'frontier-lobby-frontier-subtext'
@@ -32,4 +32,4 @@
             NFJanitor: [ 1, 1 ]
             MailCarrier: [ 1, 1 ]
 # Others:
-#            Borg: [ 0, 0 ]
+            Borg: [ -1, -1 ]
