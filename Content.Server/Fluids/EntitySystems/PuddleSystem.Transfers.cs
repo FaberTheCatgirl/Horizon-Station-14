@@ -15,8 +15,8 @@ public sealed partial class PuddleSystem
     private void OnRefillableDragged(Entity<RefillableSolutionComponent> entity, ref DragDropDraggedEvent args)
     {
         // Frontier: silently prevent non-transferrable solution
-        if (entity.Comp.PreventTransferOut)
-            return;
+       /* if (entity.Comp.PreventTransferOut)
+            return;*/
         // End Frontier
 
         if (!_solutionContainerSystem.TryGetSolution(entity.Owner, entity.Comp.Solution, out var soln, out var solution) || solution.Volume == FixedPoint2.Zero)

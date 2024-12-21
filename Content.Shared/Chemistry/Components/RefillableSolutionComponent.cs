@@ -26,6 +26,6 @@ public sealed partial class RefillableSolutionComponent : Component
     /// <summary>
     /// Frontier: prevent transferring solution out into others
     /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public bool PreventTransferOut = false;
+    /*[DataField, ViewVariables(VVAccess.ReadWrite)]
+    public bool PreventTransferOut = false;*/
 }
